@@ -75,9 +75,8 @@ recomm_parameters = sf.sc_autoFlowGrid(adata, 5, [10, 11, 12, 13, 14, 15, 16, 17
 ```
 #### Visualize the result
 ```sh
-import matplotlib.pyplot as plt
-%matplotlib inline
-
+#neighbor graph
+sc.pp.neighbors(adata, n_neighbors=30, n_pcs=5)
 #umap
 sc.tl.umap(adata)
 
