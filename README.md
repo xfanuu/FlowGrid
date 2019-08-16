@@ -71,7 +71,7 @@ Default binN_range = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
 Default eps_range = [1.2, 1.6, 1.9, 2.1, 2.3, 2.7]
 By default, 16*6 executions will be performed and the clustering results will be stored in Anndata.obs. By specifing set_n, n recommended parameters will be returned as a list. Users can also specify binN_range and eps_range to reduce computational time such as:
 ```sh
-recomm_parameters = sc_autoFlowGrid(adata, 5, [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], [1.2, 1.6, 1.9, 2.1, 2.3])
+recomm_parameters = sf.sc_autoFlowGrid(adata, 5, [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], [1.2, 1.6, 1.9, 2.1, 2.3])
 ```
 #### Visualize the result
 ```sh
