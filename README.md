@@ -80,6 +80,8 @@ for i in range(len(recomm_parameters)):
     sc.pl.umap(adata, color=recomm_parameters[i],frameon =False)
 ```
 
+### NOTE
+The result of the steps above can be found in the sc_FlowGrid Example.ipynb
 
 
 
