@@ -4,12 +4,8 @@ FlowGrid density-based clustering algorithm that can perform fast and accurate c
 
 ### Installation
 FlowGrid supports pip installation.
-Install the package.
 ```sh
 pip install sc_FlowGrid
-```
-import package .
-```sh
 import sc_FlowGrid
 ```
 
